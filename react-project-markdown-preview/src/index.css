@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 90%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  border-bottom: solid 1px white;
+}
+
+#editor-section {
+  padding: 0;
+  width: 80vh;
+}
+
+textarea {
+  min-height: 35vh;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#preview-section {
+  max-width: 90vw;
+  width: 1000px;
+}
+
+#preview {
+  word-break: break-all;
+  background-color: rgb(213, 238, 240);
+  min-height: 200px;
+}
+
+@media (max-width: 800px) {
+  #editor-section {
+    min-width: 350px
+  }
+
+  #preview-section {
+    width: 90vw;
+  }
+}

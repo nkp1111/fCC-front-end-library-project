@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#quote-box {
+  width: 550px;
+  padding: 30px 15px 40px 15px;  
+}
+
+#quote-box .text-container {
+  padding:30px;
+}
+
+
+#quote-box .text-container .fa-solid {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+#author::before {
+  content: '- '
+}
+
+div div {
+  position: relative;
+}
+
+
+a {
+  position: absolute;
+  right: 0;
+}
+
+.btn {
+  margin-left: 25px;
+  white-space: nowrap;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform:scale(0.95);
+}
+
+.btn:focus {
+  color: white;
+}
+
+.lead {
+  color: white;
+  font-size: small;
+}
