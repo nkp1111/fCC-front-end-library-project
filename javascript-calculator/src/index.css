@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  height: 100vh;
+}
+
+.app {
+  width: 300px;
+  box-shadow: -1px -1px 12px rgb(30, 104, 134);
+}
+
+#display-section {
+  background-color: rgb(60, 57, 57);
+  text-align: right;
+}
+
+#btn-section {
+  width: 100%;
+}
+
+.btns:hover {
+  border-color: white;
+  box-shadow: 2px 2px 2px;
+}
+
+#equals {
+  height: calc(200% - 3px);
+  background-color: rgb(127, 23, 23) !important;
+}
+
+#clear {
+  background-color: rgb(20, 20, 56) !important;
+}
