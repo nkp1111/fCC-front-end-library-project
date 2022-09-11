@@ -4,8 +4,8 @@ import reducer from './reducer'
 const AppContext = React.createContext()
 
 const initialState = {
-  break: 1,
-  session: 1,
+  break: 5,
+  session: 25,
   minutes: 1,
   seconds: 0,
   start: false,
@@ -42,7 +42,7 @@ const AppProvider = ({ children }) => {
     if (state.start) {
       interval = setInterval(() => {
         handleTimer()
-      }, 100)
+      }, 1000)
     }
     if (state.minutes === 0 && state.seconds === 0) {
       handleTransition()
