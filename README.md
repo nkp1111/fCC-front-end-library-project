@@ -1,9 +1,11 @@
 # front-end-developement-library-projects
-## freeCodeCamp https://www.freecodecamp.org/learn/
+
+## freeCodeCamp <https://www.freecodecamp.org/learn/>
 
 There are 5 projects that are done following the course of front-end-developement-library
 
 5 Projects are:
+
 1. Random Quote Machine
 2. Markdown Preview
 3. Drum machine
@@ -11,4 +13,3 @@ There are 5 projects that are done following the course of front-end-developemen
 5. Build a 25 + 5 Clock
 
 These projects are done using **React** and **Bootstrap** library framework
-

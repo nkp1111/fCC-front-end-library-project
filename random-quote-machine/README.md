@@ -1,3 +1,3 @@
-# Front-End-Devlopement-Library
+# Random Quote Machine
 
-Bootstrap
+Live server: [Codepen](https://codepen.io/nkp1111/pen/ZExamog)
